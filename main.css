@@ -1,0 +1,14 @@
+body {
+
+    margin: 0; /* Убираем отступы */
+    height: 300%; /* Высота страницы */
+
+} 
+
+
+
+.img{
+    object-fit:cover;
+    width: 100%;
+}
+
