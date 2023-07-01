@@ -11,6 +11,95 @@ body {
 .img{
     object-fit:cover;
     width: 100%;
-    margin-top: 0;
+    margin: 0 0 0 0;
+    margin-bottom: -5px;
 }
+
+.bb {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: brown;
+    
+}
+.im  {
+    height: 800px;
+    width: 100%;
+     background: url("./img/ikk.png");  
+     
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-size: 100% 100%; 
+     position: relative;
+     text-align: center;
+     
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 80px;
+}
+
+.text {
+    font-size: 35px;
+}
+
+img {
+    margin: 0 0 0 0 ;
+}
+
+.BL0{
+    position: absolute;
+    bottom: 460px;
+    left: 159px;
+}
+.BL  {
+    position: absolute;
+    bottom: 400px;
+    left: 159px;
+}
+.BL2 {
+    position: absolute;
+    bottom: 250px;
+    left: 159px;
+}
+
+.text1 {
+    font-size: 30px;
+}
+
+.text2 {
+    font-size: 30px;
+}
+.text3 {
+    font-size: 30px;
+    text-align:left;
+}
+
 
